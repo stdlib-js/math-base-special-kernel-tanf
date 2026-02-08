@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kernelTanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-tanf@deno/mod.js';
+import kernelTanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-tanf@v0.1.1-deno/mod.js';
 ```
 
 #### kernelTanf( x, iy )
@@ -91,7 +91,7 @@ out = kernelTanf( NaN, -1 );
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pi@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import kernelTanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-tanf@deno/mod.js';
+import kernelTanf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-tanf@v0.1.1-deno/mod.js';
 
 var x = linspace( -PI/4.0, PI/4.0, 100 );
 
